@@ -1,0 +1,8 @@
+# Virtual Environment
+myenv/
+
+#Cached
+__pycache__/
+
+#environment
+.env
