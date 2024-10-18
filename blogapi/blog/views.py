@@ -37,7 +37,7 @@ class BlogPostViewSet(viewsets.ModelViewSet):
         serializer.save(author=self.request.user)  # Automatically sets the logged-in user as the author of the post
 
     # Custom action to filter blog posts by author.
-    @action(detail=False)
+    @action(detail=False) # Enables custom action to filter blog posts by author
     def by_author(self, request):
         author_username = request.query_params.get('username', None)  # Retrieve 'username' parameter from the request
         if author_username:

@@ -41,7 +41,7 @@ Copy python3 manage.py createsuperuser
 Start the development server:
 Copy python3 manage.py runserver
 
-The API will be available at http://localhost:8000/.
+The API will be available at http://localhost:8000/api/schema/.
 **API Endpoints**
 
 /api/blog/posts/: Blog post operations
@@ -50,7 +50,7 @@ The API will be available at http://localhost:8000/.
 /api/blog/tags/: Tag operations
 /api/token/: Authentication endpoints
 
-For detailed API documentation, visit /api/docs/ after starting the server.
+For detailed API documentation, visit /api/schema/docs/ after starting the server.
 Usage
 **Authentication**
 To use protected endpoints, include the token in the Authorization header:
